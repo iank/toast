@@ -8,9 +8,71 @@
   )
 
 
-  (text "TODO:\n\nSheet interconnects" (at 139.7 62.23 0)
+  (wire (pts (xy 114.3 54.61) (xy 124.46 54.61))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 08808359-2ad7-4c55-acbf-995f8b500c02)
+  )
+  (wire (pts (xy 118.11 68.58) (xy 118.11 114.3))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 10add3ac-0e21-44b5-b861-335f1bc123fb)
+  )
+  (wire (pts (xy 124.46 54.61) (xy 124.46 130.81))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 239a4c5f-aea8-408a-a2eb-fac46280adaf)
+  )
+  (wire (pts (xy 114.3 68.58) (xy 118.11 68.58))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 2c5574e6-3b04-425b-936f-ee3f6cba3a1b)
+  )
+  (wire (pts (xy 124.46 130.81) (xy 114.3 130.81))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 3c157981-87c5-4c53-8982-7356b0394275)
+  )
+  (wire (pts (xy 125.73 133.35) (xy 114.3 133.35))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 3df5709a-a14d-48b1-80fb-c2689af455e9)
+  )
+  (wire (pts (xy 118.11 114.3) (xy 114.3 114.3))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 5743512c-738e-4e22-a9c0-24deb5df0893)
+  )
+  (wire (pts (xy 114.3 57.15) (xy 123.19 57.15))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 7edf4e82-1280-4067-91f2-6689aad58922)
+  )
+  (wire (pts (xy 123.19 128.27) (xy 114.3 128.27))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 8338ce43-c1f9-4f4f-aea8-9e683bdd284c)
+  )
+  (wire (pts (xy 114.3 52.07) (xy 125.73 52.07))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid ade33e95-007c-4101-a410-8a24d613681d)
+  )
+  (wire (pts (xy 119.38 116.84) (xy 114.3 116.84))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid b4753e1b-7ee0-4a49-93e2-7236f2733dc3)
+  )
+  (wire (pts (xy 119.38 66.04) (xy 119.38 116.84))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid b5d822de-bdb6-4503-b948-4b6ca21aaa42)
+  )
+  (wire (pts (xy 125.73 52.07) (xy 125.73 133.35))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid e15a429c-9a8a-4546-8d8b-a7cc54ef5995)
+  )
+  (wire (pts (xy 114.3 66.04) (xy 119.38 66.04))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid e6f6eaf3-5fd4-4501-887c-07c55b19089d)
+  )
+  (wire (pts (xy 123.19 57.15) (xy 123.19 128.27))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid f2d27ce5-f151-436b-8445-7cfe976d012d)
+  )
+
+  (text "Factory defaults:      | Programmed\n\nGPIO0: LED UART Rx   | SLOW (output low)\nGPIO1: LED UART Tx   | ~{PWRDN} (output high)\nGPIO2: USBCFG        | ~{ALERT} (input)\nGPIO3: LEDI2C         | LEDI2C"
+    (at 134.62 128.27 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e95bafb4-b663-451a-a045-e586965e5b3d)
+    (uuid e5f41159-2bff-44c2-af46-7ef1588347c3)
   )
 
   (sheet (at 34.29 29.21) (size 80.01 49.53) (fields_autoplaced)
@@ -22,6 +84,26 @@
     )
     (property "Sheet file" "powermon.kicad_sch" (id 1) (at 34.29 79.3246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "I2C_SCL" input (at 114.3 68.58 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 570aeeb2-75e4-4591-bf96-be0e9c561975)
+    )
+    (pin "I2C_SDA" bidirectional (at 114.3 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 6487f768-f385-4ac3-9b9a-fecafbf2ceb4)
+    )
+    (pin "SLOW" input (at 114.3 57.15 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid be8da919-50a6-4599-ba08-13056e89ba11)
+    )
+    (pin "~{PWRDN}" input (at 114.3 54.61 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 6da31f38-116a-4917-a744-af0974e7e2d9)
+    )
+    (pin "GPIO" input (at 114.3 52.07 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 21d4d5b4-7967-4198-a996-ab9d58bece17)
     )
   )
 
@@ -67,8 +149,14 @@
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/0618bdcc-f78e-47aa-b981-d21e3f13d1d1"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/1a613bc6-1d83-49de-a5d1-cb6ecebc8fdf"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/1aee80e0-d5ab-4041-a69f-25c9526af2c9"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/28ecf7f2-034a-4e0b-a3f6-1c81b9438c81"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/2dc3edb5-1e52-4f89-b49a-bc9320992824"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
@@ -80,6 +168,12 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/37047cfa-bb34-4160-bb59-973a84aec4b6"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/39a8cd39-294a-4c8a-99d7-71b35feea45f"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/4004288d-bf7f-41fb-ab8f-dbd688fa294e"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/42fc4669-a9b9-4cb5-8bfd-48978cabc91b"
@@ -100,6 +194,9 @@
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/c6931d3b-0995-44dd-bc51-9a7f4e642784"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/cb1b217a-7e7a-4fe5-8f21-8a2122dee06d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/f4e5e69b-1de1-4d60-b70c-9d544d629f28"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -109,8 +206,14 @@
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/f8f8ba8e-6553-420b-a9fa-edfa007ab153"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/1fa55ac0-fd30-4a39-99b2-2303d9b92e3d"
+      (reference "C?") (unit 1) (value "1uF") (footprint "")
+    )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/60057a8e-6c12-43d5-81a0-4acd8f8fc5bb"
       (reference "C?") (unit 1) (value "1uF") (footprint "")
+    )
+    (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/71596cf3-8544-4b7a-8c91-d72ec1d11c78"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "")
     )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/72befada-e2cc-4bfd-829b-0ba404fd7d8f"
       (reference "C?") (unit 1) (value "0.1uF") (footprint "")
@@ -125,16 +228,19 @@
       (reference "J?") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "")
     )
     (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/095d800e-c57c-4002-b939-11f909c8c461"
-      (reference "R?") (unit 1) (value "5.1k") (footprint "")
+      (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/0a2ffd6c-a897-42e4-8c34-7d6acdbe07a5"
-      (reference "R?") (unit 1) (value "5.1k") (footprint "")
+      (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/943b5829-0132-4108-bdb5-1613d62772bb"
       (reference "R?") (unit 1) (value "2k") (footprint "")
     )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/aa8b4897-6406-424f-a754-94c506224522"
       (reference "R?") (unit 1) (value "5.1k") (footprint "")
+    )
+    (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/d65d2559-1570-4c94-b5d4-607e42eab7c8"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/e0bb5824-4a41-4bb9-b622-0a67bd30c4c3"
       (reference "R?") (unit 1) (value "5.1k") (footprint "")
