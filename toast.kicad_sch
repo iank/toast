@@ -765,7 +765,7 @@
       (reference "U1") (unit 1) (value "PAC1953T-E_J6CX") (footprint "")
     )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/9b7e4348-85f2-4725-a2ff-d24a003c485a"
-      (reference "U2") (unit 1) (value "NCP606") (footprint "")
+      (reference "U2") (unit 1) (value "NCP606") (footprint "toast:SON7P95_300X330X100L50X35T200X120N")
     )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/5c5d39b4-bf90-47ee-9448-adaacf91d9cf"
       (reference "U3") (unit 1) (value "TPD2E001DRSR") (footprint "toast:SON7P95_300X300X80L50X35T190X120N")

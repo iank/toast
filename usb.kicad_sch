@@ -1630,7 +1630,7 @@
     (uuid 9b7e4348-85f2-4725-a2ff-d24a003c485a)
     (property "Reference" "U2" (id 0) (at 54.61 55.88 0))
     (property "Value" "NCP606" (id 1) (at 54.61 58.42 0))
-    (property "Footprint" "" (id 2) (at 52.07 64.77 0)
+    (property "Footprint" "toast:SON7P95_300X330X100L50X35T200X120N" (id 2) (at 52.07 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 52.07 64.77 0)
