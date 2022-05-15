@@ -762,7 +762,7 @@
       (reference "TP15") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/d9988d6f-a5d5-4301-bbc6-94bfe2778da0"
-      (reference "U1") (unit 1) (value "PAC1953T-E_J6CX") (footprint "")
+      (reference "U1") (unit 1) (value "PAC1953T-E_J6CX") (footprint "toast:BGA16NP50_4X4_222X217X67B32N")
     )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/9b7e4348-85f2-4725-a2ff-d24a003c485a"
       (reference "U2") (unit 1) (value "NCP606") (footprint "toast:SON7P95_300X330X100L50X35T200X120N")

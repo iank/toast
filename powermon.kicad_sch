@@ -1713,7 +1713,7 @@
     (uuid d9988d6f-a5d5-4301-bbc6-94bfe2778da0)
     (property "Reference" "U1" (id 0) (at 143.51 124.46 0))
     (property "Value" "PAC1953T-E_J6CX" (id 1) (at 143.51 127 0))
-    (property "Footprint" "" (id 2) (at 133.35 91.44 0)
+    (property "Footprint" "toast:BGA16NP50_4X4_222X217X67B32N" (id 2) (at 133.35 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 133.35 91.44 0)
