@@ -252,7 +252,7 @@
     (property "Value" "StencilAlignmentHole" (id 1) (at 203.2 104.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 200.66 102.87 0)
+    (property "Footprint" "toast:StencilAlignmentHole_1.6mm" (id 2) (at 200.66 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 200.66 102.87 0)
@@ -269,7 +269,7 @@
     (property "Value" "StencilAlignmentHole" (id 1) (at 203.2 97.7899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 200.66 96.52 0)
+    (property "Footprint" "toast:StencilAlignmentHole_1.6mm" (id 2) (at 200.66 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 200.66 96.52 0)
@@ -329,7 +329,7 @@
     (property "Value" "StencilAlignmentHole" (id 1) (at 203.2 110.4899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 200.66 109.22 0)
+    (property "Footprint" "toast:StencilAlignmentHole_1.6mm" (id 2) (at 200.66 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 200.66 109.22 0)
@@ -400,7 +400,7 @@
     (property "Value" "StencilAlignmentHole" (id 1) (at 203.2 116.8399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 200.66 115.57 0)
+    (property "Footprint" "toast:StencilAlignmentHole_1.6mm" (id 2) (at 200.66 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 200.66 115.57 0)
@@ -657,34 +657,34 @@
       (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
     (path "/4ab193e8-4247-4612-8b8f-92512a1194ff"
-      (reference "H5") (unit 1) (value "StencilAlignmentHole") (footprint "")
+      (reference "H5") (unit 1) (value "StencilAlignmentHole") (footprint "toast:StencilAlignmentHole_1.6mm")
     )
     (path "/3d41835d-e1d0-42e4-a87b-c05bec5fd2a8"
-      (reference "H6") (unit 1) (value "StencilAlignmentHole") (footprint "")
+      (reference "H6") (unit 1) (value "StencilAlignmentHole") (footprint "toast:StencilAlignmentHole_1.6mm")
     )
     (path "/a357c15a-be34-4c0d-b809-4d48ecbd3390"
-      (reference "H7") (unit 1) (value "StencilAlignmentHole") (footprint "")
+      (reference "H7") (unit 1) (value "StencilAlignmentHole") (footprint "toast:StencilAlignmentHole_1.6mm")
     )
     (path "/dc0f4484-4ebf-4f4b-ae84-9e432f53ece0"
-      (reference "H8") (unit 1) (value "StencilAlignmentHole") (footprint "")
+      (reference "H8") (unit 1) (value "StencilAlignmentHole") (footprint "toast:StencilAlignmentHole_1.6mm")
     )
     (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/cccc183d-f591-443c-b10b-559e23d1baf1"
-      (reference "J1") (unit 1) (value "2060-452/998-404") (footprint "")
+      (reference "J1") (unit 1) (value "2060-452/998-404") (footprint "toast:WAGO_2060-452_998-404")
     )
     (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/109a356c-f3d4-4b17-bcc8-e214a5583158"
-      (reference "J2") (unit 1) (value "2060-452/998-404") (footprint "")
+      (reference "J2") (unit 1) (value "2060-452/998-404") (footprint "toast:WAGO_2060-452_998-404")
     )
     (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/9b505df5-5774-4cf7-b5d6-d5a693bf47ea"
-      (reference "J3") (unit 1) (value "2060-452/998-404") (footprint "")
+      (reference "J3") (unit 1) (value "2060-452/998-404") (footprint "toast:WAGO_2060-452_998-404")
     )
     (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/5e8227fe-46d6-4b75-8e6c-cf652ced41d0"
-      (reference "J4") (unit 1) (value "2060-452/998-404") (footprint "")
+      (reference "J4") (unit 1) (value "2060-452/998-404") (footprint "toast:WAGO_2060-452_998-404")
     )
     (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/cd92610b-731b-411f-93db-a704fd23f1a4"
-      (reference "J5") (unit 1) (value "2060-452/998-404") (footprint "")
+      (reference "J5") (unit 1) (value "2060-452/998-404") (footprint "toast:WAGO_2060-452_998-404")
     )
     (path "/509457db-eedd-4ad9-89dd-afa4c46733b6/59ae3e65-dedf-4f45-adcc-037182e1cdaa"
-      (reference "J6") (unit 1) (value "2060-452/998-404") (footprint "")
+      (reference "J6") (unit 1) (value "2060-452/998-404") (footprint "toast:WAGO_2060-452_998-404")
     )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/235a0c15-acf3-428a-b887-663dc3fc4abb"
       (reference "J7") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_GCT_USB4085")
