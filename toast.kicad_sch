@@ -642,7 +642,7 @@
       (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/13857c1f-9563-4e50-9e73-769f2bd20b61"
-      (reference "D1") (unit 1) (value "LED") (footprint "")
+      (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/feedd326-2cae-44e7-9b27-f65bbd9440ab"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
@@ -768,7 +768,7 @@
       (reference "U2") (unit 1) (value "NCP606") (footprint "")
     )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/5c5d39b4-bf90-47ee-9448-adaacf91d9cf"
-      (reference "U3") (unit 1) (value "TPD2E001DRSR") (footprint "")
+      (reference "U3") (unit 1) (value "TPD2E001DRSR") (footprint "toast:SON7P95_300X300X80L50X35T190X120N")
     )
     (path "/85a187b5-2adf-4f49-9f19-442d04950f80/c1367df2-c29b-4fc7-8cec-4a69430991ba"
       (reference "U4") (unit 1) (value "MCP2221AxML") (footprint "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.5x2.5mm")

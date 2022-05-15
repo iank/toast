@@ -148,6 +148,12 @@
     (property "Datasheet" "" (id 3) (at -6.35 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "TPD2E001DRSR_0_0"
+      (pin passive line (at 2.54 -8.89 90) (length 2.54)
+        (name "GND_EP" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
     (symbol "TPD2E001DRSR_0_1"
       (rectangle (start -6.35 5.08) (end 6.35 -6.35)
         (stroke (width 0) (type default) (color 0 0 0 0))
